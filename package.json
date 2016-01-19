@@ -22,6 +22,9 @@
     "url": "https://github.com/rexk/mocha-mix-jsdom-3/issues"
   },
   "homepage": "https://github.com/rexk/mocha-mix-jsdom-3#readme",
+  "engines": {
+    "node": ">=0.10 <1.0"
+  },
   "dependencies": {
     "jsdom": "^3.1.2"
   },
