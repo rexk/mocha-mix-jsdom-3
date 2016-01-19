@@ -1,0 +1,32 @@
+{
+  "name": "mocha-mix-jsdom-3",
+  "version": "0.0.1-alpha.0",
+  "description": "mocha-mix plugin for jsdom@3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexk/mocha-mix-jsdom-3.git"
+  },
+  "keywords": [
+    "mocha",
+    "mocha-mix",
+    "jsdom",
+    "plugin"
+  ],
+  "author": "myungsunrex@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexk/mocha-mix-jsdom-3/issues"
+  },
+  "homepage": "https://github.com/rexk/mocha-mix-jsdom-3#readme",
+  "dependencies": {
+    "jsdom": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3"
+  }
+}
