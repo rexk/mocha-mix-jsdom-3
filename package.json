@@ -4,7 +4,9 @@
   "description": "mocha-mix plugin for jsdom@3",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover _mocha $(find ./lib -name *.test.js)",
+    "test:simple": "mocha $(find ./lib -name *.test.js)",
+    "test:watch": "mocha --watch $(find ./lib -name *.test.js)"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,10 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "expect": "^1.13.4",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "mocha-mix": "^1.0.0-alpha.0"
   }
 }
