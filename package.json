@@ -2,7 +2,7 @@
   "name": "mocha-mix-jsdom-3",
   "version": "0.0.1-alpha.0",
   "description": "mocha-mix plugin for jsdom@3",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
